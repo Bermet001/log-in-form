@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #112d49;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+}
+input {
+  height: 2rem;
+}
+input:hover {
+  height: 2rem;
+  box-shadow: 0.4px 2.2px 4.5px rgba(0, 0, 0, 0.23),
+    1.3px 7.4px 15px rgba(0, 0, 0, 0.34), 6px 33px 67px rgba(0, 0, 0, 0.57);
+}
+.errorText {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.4px 2.2px 4.5px rgba(0, 0, 0, 0.23),
+    1.3px 7.4px 15px rgba(0, 0, 0, 0.34), 6px 33px 67px rgba(0, 0, 0, 0.57);
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  width: 24rem;
+}
+.heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: grey;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+}
+.button:hover {
+  background-color: antiquewhite;
+  color: #112d49;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0.4px 2.2px 4.5px rgba(0, 0, 0, 0.23),
+    1.3px 7.4px 15px rgba(0, 0, 0, 0.34), 6px 33px 67px rgba(0, 0, 0, 0.57);
+}
